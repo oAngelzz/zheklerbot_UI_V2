@@ -65,28 +65,28 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="Home_Page.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Commands</a>
+                        <a class="nav-link" href="Commands_Page.html">Commands</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Leaderboards</a>
+                        <a class="nav-link" href="Leaderboards_Page.html">Leaderboards</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Modules</a>
+                        <a class="nav-link" href="Modules_Page.html">Modules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">2 vs 2's</a>
+                        <a class="nav-link" href="TwovTwos_Page.html">2 vs 2's</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Customs</a>
+                        <a class="nav-link" href="Customs_Page.html">Customs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Editors</a>
+                        <a class="nav-link" href="Editors_Page.html">Editors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Permissions</a>
+                        <a class="nav-link" href="Permissions_Page.html">Permissions</a>
                     </li>
                 </ul>
                 <!--Navbar SearchBar-->
