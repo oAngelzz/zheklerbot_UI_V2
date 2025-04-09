@@ -8,6 +8,9 @@
     <meta property="og:site_name" content="zHekBot" />
     <meta property="og:title" content="zHekBot" />
 
+    <!--Squarespace Links-->
+    <link rel="preconnect" href="https://images.squarespace-cdn.com" />
+
     <!-- Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +23,20 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom CSS-->
-    <link rel="stylesheet" src="Zhekbot.css">
+    <link rel="stylesheet" src="/Zhekbot.css">
+
+    <!--Style Footer-->
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+    </style>
 
     <title>zHekBot</title>
 </head>
@@ -248,11 +264,10 @@
 
 
 
-    <footer>
+    <footer class="footer">
 
-        <div class="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button"
-            data-alignment="center" data-button-size="medium" data-button-type="primary" onclick="enable()"
-            id="enable-btn">
+        <div class="footer_button" data-animation-role="button" data-alignment="center" data-button-size="medium"
+            data-button-type="primary" onclick="enable()" id="enable-btn">
             <a id="enable-btn-txt"
                 class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
                 style="background-color: darkred;" data-initialized="true">Disable zHekBot</a>
