@@ -8,9 +8,6 @@
     <meta property="og:site_name" content="zHekBot" />
     <meta property="og:title" content="zHekBot" />
 
-    <!--Squarespace Links-->
-    <link rel="preconnect" href="https://images.squarespace-cdn.com" />
-
     <!-- Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
